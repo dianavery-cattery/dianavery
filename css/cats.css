@@ -1,0 +1,127 @@
+.cats-content {
+    padding: 4rem 5vw;
+}
+
+.category-section {
+    margin-bottom: 5rem;
+}
+
+.cats-grid {
+    width: 100%;
+    padding: 0 10vw;
+}
+
+.cat-card {
+    display: flex;
+    flex-direction: column;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: auto;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    transition: all ease 0.3s;
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 5vh;
+}
+
+.cat-card:hover {
+    outline: 3px solid white;
+}
+
+.card-imgs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1vw;
+    height: 100%;
+
+}
+
+.card-imgs img {
+    width: 100%;
+    height: 34vh;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.card-imgs img:hover {
+    transform: scale(1.05);
+}
+
+.cat-info {
+    margin-top: auto;
+    padding: 1.5rem;
+}
+
+.cat-info h3 {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 700;
+}
+
+.cat-breed {
+    font-size: 1.1rem;
+    color: #8c55ae;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+
+.cat-details {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    line-height: 2;
+}
+
+.availability-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.reserved-badge {
+    background: #FF9800;
+}
+
+@media (max-width: 768px) {
+    .cats-content {
+        padding: 2rem 5vw;
+    }
+
+    .cats-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .cat-card img {
+        height: 200px;
+    }
+
+    .info-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .category-section {
+        margin-bottom: 3rem;
+    }
+}
+
+.img-div {
+    width: 40%;
+}
+
+.img-div img {
+    width: 100%;
+    height: 42vh;
+}
