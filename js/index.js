@@ -1,4 +1,3 @@
-
 // Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -13,7 +12,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
 // Scroll animations (IntersectionObserver)
 const observerOptions = {
     threshold: 0.1,
@@ -27,8 +25,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-
-// Responsive nav centering (419px–528px only)
+// Responsive nav centering (for medium screens if still needed)
 (() => {
     const nav = document.querySelector('.nav-links');
     if (!nav) return;
@@ -36,7 +33,7 @@ const observer = new IntersectionObserver((entries) => {
     // Store original <li> elements once
     const originalItems = Array.from(nav.children);
 
-    const mq = window.matchMedia('(max-width: 644px)');
+    const mq = window.matchMedia('(min-width: 577px) and (max-width: 644px)');
 
     function applyCenteredGrid() {
         if (nav.dataset.split === 'true') return;
