@@ -182,6 +182,12 @@ nav {
 
 /* ==================== HERO SECTION ==================== */
 
+.header-filler {
+    display: flex;
+    min-height: 4rem;
+    margin-bottom: 1vh;
+}
+
 .hero-cats-container {
     margin: 0;
     display: flex;
@@ -203,17 +209,14 @@ nav {
 .hero h1 {
     font-weight: 900;
     font-size: clamp(2rem, 5vw, 3.5rem);
-    margin-bottom: 1rem;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
     animation: fadeInUp 1s ease-out;
 }
 
 .hero p {
-    margin-top: 2vh;
     line-height: clamp(1.75rem, 3vw, 3rem);
     font-weight: 550;
     font-size: clamp(1rem, 2vw, 1.6rem);
-    margin-bottom: 2rem;
     opacity: 0.9;
     animation: fadeInUp 1s ease-out;
 }
@@ -390,7 +393,7 @@ strong {
     font-weight: 900;
 }
 
-#about-out-kittens-text {
+#about-our-kittens-text {
     transform: translateY(-10vh);
 }
 
@@ -539,6 +542,13 @@ strong {
     .logo {
         width: 4rem;
         left: 1.5%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero {
+        width: 100% !important;
+        margin: 1rem 0;
     }
 }
 

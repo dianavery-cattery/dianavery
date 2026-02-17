@@ -1,5 +1,10 @@
+.hero {
+    padding-top: 3vh;
+    padding-bottom: 0;
+}
+
 .cats-content {
-    padding: 4rem 5vw;
+    padding: 1rem 5vw 4rem;
 }
 
 .category-section {
@@ -73,6 +78,7 @@
 
 .cat-details {
     font-size: 1.2rem;
+    font-weight: 700;
     opacity: 0.9;
     line-height: 2;
 }

@@ -10,9 +10,10 @@
     gap: 3rem;
     max-width: 1200px;
     width: 100%;
+    margin: 4rem 0;
 }
 
-.certificate-card, .partner-card {
+.certificate-card, .other-card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -24,11 +25,11 @@
     animation: fadeInUp 1s ease-out;
 }
 
-.certificate-card:hover, .partner-card:hover {
+.certificate-card:hover, .other-card:hover {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
-.certificate-card img, .partner-card img {
+.certificate-card img, .other-card img {
     width: 100%;
     max-width: 250px;
     height: auto;
@@ -38,7 +39,7 @@
     transition: all 0.3s ease;
 }
 
-.certificate-card img:hover, .partner-card img:hover {
+.certificate-card img:hover, .other-card img:hover {
     transform: scale(1.05);
     outline-color: rgba(255, 255, 255, 0.5);
 }
@@ -83,11 +84,11 @@
         gap: 2rem;
     }
     
-    .certificate-card, .partner-card {
+    .certificate-card, .other-card {
         padding: 1.5rem;
     }
     
-    .certificate-card img, .partner-card img {
+    .certificate-card img, .other-card img {
         max-width: 200px;
     }
     
@@ -105,16 +106,16 @@
         padding: 0 3vw;
     }
     
-    .certificate-card, .partner-card {
+    .certificate-card, .other-card {
         padding: 1rem;
     }
     
-    .certificate-card img, .partner-card img {
+    .certificate-card img, .other-card img {
         max-width: 180px;
     }
 }
 
-.partner-card {
+.other-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,7 +129,7 @@
     height: 100%;
 }
 
-.partner-link {
+.other-link {
     display: inline-block;
     padding: 0.5rem 1rem;
     background: #4a90e2;
@@ -141,7 +142,7 @@
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.partner-link:hover {
+.other-link:hover {
     background: #357ab8;
     transform: translateY(-2px);
 }

@@ -15,6 +15,27 @@
     margin-bottom: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 0.2s ease-out;
+}
+
+.faq-wrapper:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.faq-wrapper:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.faq-wrapper:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.faq-wrapper:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.faq-wrapper:nth-child(6) {
+    animation-delay: 0.5s;
 }
 
 .faq-wrapper:hover {

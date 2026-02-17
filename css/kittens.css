@@ -21,3 +21,27 @@ h2 {
 .section {
     padding: 0 !important;
 }
+
+#scrollBtn {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 40px;
+    right: 40px;
+    font-size: 28px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background: rgba(29, 7, 47, 0.772);
+    display: none; /* Hidden by default */
+    z-index: 9999;
+}
+
+#scrollBtn img {
+    width: 40px;
+    height: 40px;
+    transform: translate(0px, 4px);
+    z-index: 9999;
+}
