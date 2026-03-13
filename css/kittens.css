@@ -63,4 +63,21 @@ h2 {
     h2 {
         text-align: center;
     }
+
+}
+
+@media (max-width: 304px) {
+    .hero-cats-container {
+        margin-bottom: 2rem !important;
+    }
+
+    .cat-card { 
+        max-height: 25vh !important;
+    }
+}
+
+@media (max-width: 263px) {
+    .cat-card { 
+        max-height: 30vh !important;
+    }
 }
