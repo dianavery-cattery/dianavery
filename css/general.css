@@ -485,8 +485,8 @@ strong {
         text-align: center;
     }
 
-    #about-out-kittens-text {
-        transform: translateY(0);
+    #about-our-kittens-text {
+        transform: translateY(0px);
     }
 }
 
