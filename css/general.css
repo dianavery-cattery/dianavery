@@ -315,14 +315,20 @@ footer {
     align-items: center;
 }
 
-.footer-link a img {
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.footer-link a img, .footer-link button img {
     width: clamp(2rem, 4vw, 3rem);
     height: auto;
     transition: transform 0.3s ease;
 }
 
-.footer-link a img:hover {
+.footer-link a img:hover, .footer-link button img:hover {
     transform: translateY(-3px);
+    cursor: pointer;
 }
 
 /* ==================== ANIMATIONS ==================== */
