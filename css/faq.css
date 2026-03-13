@@ -68,20 +68,20 @@
     #faq {
         padding: 50px 0;
     }
-    
+
     .container {
         padding: 0 15px;
     }
-    
+
     .faq-wrapper {
         padding: 25px 20px;
         margin-bottom: 15px;
     }
-    
+
     .faq-wrapper h2 {
         font-size: 1.3em;
     }
-    
+
     .faq-wrapper p {
         font-size: 0.95em;
     }
@@ -91,7 +91,7 @@
     .faq-wrapper {
         padding: 20px 15px;
     }
-    
+
     .faq-wrapper h2 {
         font-size: 1.2em;
         margin-bottom: 12px;

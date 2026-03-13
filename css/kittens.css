@@ -1,4 +1,4 @@
-.card-imgs img{
+.card-imgs img {
     height: 50vh;
 }
 
@@ -35,7 +35,8 @@ h2 {
     border: none;
     border-radius: 50%;
     background: rgba(29, 7, 47, 0.772);
-    display: none; /* Hidden by default */
+    display: none;
+    /* Hidden by default */
     z-index: 9999;
 }
 
@@ -44,4 +45,22 @@ h2 {
     height: 40px;
     transform: translate(0px, 4px);
     z-index: 9999;
+}
+
+@media (max-width: 660px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 532px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 397px) {
+    h2 {
+        text-align: center;
+    }
 }
