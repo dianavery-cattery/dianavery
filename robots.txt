@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dianavery.co.uk/sitemap.xml
