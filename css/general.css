@@ -551,10 +551,19 @@ strong {
     }
 }
 
+#health-and-veterinary-care {
+    max-width: 95%; 
+    align-self: center;
+}
+
 @media (max-width: 1200px) {
     .hero {
         width: 100% !important;
         margin: 1rem 0;
+    }
+
+    #health-and-veterinary-care {
+        max-width: 100%;
     }
 }
 
