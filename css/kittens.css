@@ -56,6 +56,16 @@ h2 {
     gap: 2rem;
 }
 
+.sold-cat 
+{
+    opacity: 0.6;
+}
+
+.sold-cat:hover 
+{
+    opacity: 0.9;
+}
+
 @media (max-width: 660px) {
     h2 {
         font-size: 2rem;
