@@ -56,14 +56,43 @@ h2 {
     gap: 2rem;
 }
 
-.sold-cat 
-{
-    opacity: 0.6;
+.unavailable {
+    background: #8a8080;
 }
 
-.sold-cat:hover 
-{
-    opacity: 0.9;
+
+
+.double-cat > * {
+    text-align: center;
+}
+
+.double-cat-seperator {
+    height: 90%;
+    width: 3px;
+    background-color: rgba(78 77 77 / 20%);;
+    align-self: center;
+    justify-self: center;
+}
+
+.banner-sold-cat { opacity: 0.85;}
+.banner-sold-cat:hover { opacity: 0.95;}
+.sold-cat { opacity: 0.6; }
+.sold-cat:hover { opacity: 0.9; }
+
+.update-banner {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    background: linear-gradient(135deg, #8e549d 0%, #b582b5 50%, #d1a6d9 100%);
+}
+
+.update-banner > * {
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    margin: 0;
 }
 
 @media (max-width: 660px) {
